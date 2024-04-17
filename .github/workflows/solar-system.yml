@@ -58,7 +58,7 @@ jobs:
         continue-on-error: true
       
       - name: Upload Artifact
-        uses: actions/upload-artifacts@v3
+        uses: actions/upload-artifact@v3
         with:
           name: Code-Coverage-Result
           path: coverage
